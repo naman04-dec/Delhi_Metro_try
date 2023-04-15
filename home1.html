@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Delhi Metro</title>
+</head>
+<body>
+
+    <center>
+
+        <h1>Metro System</h1>
+        <h3>Welcome to Delhi Metro Fare Calculator</h3><br><br>
+
+        Start Station : <select id="startstation">
+            <option value="0">Select Station</option>
+            <option value="1">A</option>
+            <option value="2">B</option>
+            <option value="3">C</option>
+            <option value="4">D</option>
+            <option value="5">E</option>
+            <option value="6">F</option>
+            <option value="7">G</option>
+            <option value="8">H</option>
+            <option value="9">I</option>
+            <option value="10">J</option>
+            <option value="11">K</option>
+            <option value="12">L</option>
+            <option value="13">M</option>
+            <option value="14">N</option>
+            <option value="15">O</option>
+            <option value="16">P</option>
+            <option value="17">Q</option>
+            <option value="18">R</option>
+            <option value="19">S</option>
+            <option value="20">T</option>
+            <option value="21">U</option>
+            <option value="22">V</option>
+            <option value="23">W</option>
+            <option value="24">X</option>
+            <option value="25">Y</option>
+            <option value="26">Z</option>
+        </select><br><br>
+
+
+        End Station : <select id="endstation">
+            <option value="0">Select Station</option>
+            <option value="1">A</option>
+            <option value="2">B</option>
+            <option value="3">C</option>
+            <option value="4">D</option>
+            <option value="5">E</option>
+            <option value="6">F</option>
+            <option value="7">G</option>
+            <option value="8">H</option>
+            <option value="9">I</option>
+            <option value="10">J</option>
+            <option value="11">K</option>
+            <option value="12">L</option>
+            <option value="13">M</option>
+            <option value="14">N</option>
+            <option value="15">O</option>
+            <option value="16">P</option>
+            <option value="17">Q</option>
+            <option value="18">R</option>
+            <option value="19">S</option>
+            <option value="20">T</option>
+            <option value="21">U</option>
+            <option value="22">V</option>
+            <option value="23">W</option>
+            <option value="24">X</option>
+            <option value="25">Y</option>
+            <option value="26">Z</option>
+        </select><br><br>
+
+
+
+        Payment Method : <select id="payment">
+            <option value="Ticket"> Token </option>
+            <option value="Card"> Card </option>
+            </select> <br><br>
+    
+            <button onclick="mycal()">Calculate Fair</button><br><br>
+    
+            Final Price ₹ : <input type="text" id="result" value="">
+    
+            <script src="metro.js"></script>
+
+    </center>
+    
+</body>
+</html>
